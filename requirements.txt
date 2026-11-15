@@ -1,0 +1,8 @@
+# On the DGX Spark, install torch from the CUDA wheel index or use the NGC
+# PyTorch container instead (see README.md "Setup"). Plain `pip install -r
+# requirements.txt` on a laptop/desktop gives you a CPU build, which is fine
+# for smoke tests.
+torch>=2.4
+numpy>=1.24
+nltk>=3.8
+tokenizers>=0.15
